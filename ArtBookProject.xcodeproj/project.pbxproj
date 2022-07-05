@@ -14,6 +14,7 @@
 		88ABADFB286F395B0036F2C5 /* ArtBookProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88ABADF9286F395B0036F2C5 /* ArtBookProject.xcdatamodeld */; };
 		88ABADFD286F395E0036F2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ABADFC286F395E0036F2C5 /* Assets.xcassets */; };
 		88ABAE00286F395E0036F2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88ABADFE286F395E0036F2C5 /* LaunchScreen.storyboard */; };
+		88ABAE08286F4C390036F2C5 /* DetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABAE07286F4C390036F2C5 /* DetailsVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		88ABADFC286F395E0036F2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88ABADFF286F395E0036F2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88ABAE01286F395E0036F2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ABAE07286F4C390036F2C5 /* DetailsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		88ABADEF286F395B0036F2C5 /* ArtBookProject */ = {
 			isa = PBXGroup;
 			children = (
+				88ABAE07286F4C390036F2C5 /* DetailsVc.swift */,
 				88ABADF0286F395B0036F2C5 /* AppDelegate.swift */,
 				88ABADF2286F395B0036F2C5 /* SceneDelegate.swift */,
 				88ABADF4286F395B0036F2C5 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88ABAE08286F4C390036F2C5 /* DetailsVc.swift in Sources */,
 				88ABADFB286F395B0036F2C5 /* ArtBookProject.xcdatamodeld in Sources */,
 				88ABADF5286F395B0036F2C5 /* ViewController.swift in Sources */,
 				88ABADF1286F395B0036F2C5 /* AppDelegate.swift in Sources */,
